@@ -13,6 +13,7 @@ class App extends Component {
       <div>
       This is from App.js
     <GifContainer />
+    {/* <Search /> */}
       </div>
     )
   }
