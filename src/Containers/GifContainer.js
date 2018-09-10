@@ -25,8 +25,8 @@ class GifContainer extends Component {
     console.log("trending 25 are", this.state.trending)
     return (
       <div>
-      This is from GifContainer
-    <GifList trending={this.state.trending} />
+        This is from GifContainer
+        <GifList trending={this.state.trending} />
       </div>
     );
   }
