@@ -5,7 +5,7 @@ const GifList = props => {
 // console.log("props are", props);
 
 const mappedGifs = props.trending.map(gif => {
-  return <GifCard key={gif.title} trending={gif} />
+  return <GifCard key={gif.id} trending={gif} />
 })
 
     return (

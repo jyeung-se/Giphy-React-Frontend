@@ -59,7 +59,7 @@ class GifContainer extends Component {
   handleChange = event => {
     event.preventDefault()
     this.setState({
-      serachQuery: event.target.value
+      searchQuery: event.target.value
     })
   }
 
