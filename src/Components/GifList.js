@@ -9,9 +9,8 @@ const mappedGifs = props.trending.map(gif => {
 })
 
     return (
-      <div>
-      This is from GifList.js
-      {mappedGifs}
+      <div className="ui grid container">
+        {mappedGifs}
       </div>
     )
   }

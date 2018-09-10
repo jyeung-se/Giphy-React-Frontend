@@ -11,8 +11,8 @@ class App extends Component {
   render() {
     return (
       <div>
-      This is from App.js
-    <GifContainer />
+        This is from App.js
+        <GifContainer />
       </div>
     )
   }
