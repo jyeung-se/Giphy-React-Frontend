@@ -15,7 +15,6 @@ ReactDOM.render(
         <Route exact path="/" component={App} />
         {/* <Route path="/signup" component={App} />   */}
         {/* <Route path="/favorites" component={List} /> */}
-        <App />
       </div>
   </Router>,
   document.getElementById('root')

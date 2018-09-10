@@ -3,14 +3,22 @@ import { Card } from 'semantic-ui-react'
 import '../App.css'
 
 const GifCard = props => {
-  console.log(props.trending)
+  const getSrc = () => {
+    let imageSrc
+    if (props.trending.images !== undefined) {
+      imageSrc = props.trending.images.downsized_medium.url
+    } else {
+      imageSrc = props.trending.img_url
+    }
+    return imageSrc
+  }
+  // console.log(props.trending)
+
     return (
       <div className="five wide column">
         <Card
           header={props.trending.title}
-          image={props.trending.images.downsized_medium.url}
-          description="hey"
-          meta="how"
+          image={getSrc()}
         />
       </div>
     )
